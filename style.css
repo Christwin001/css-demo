@@ -1,0 +1,65 @@
+*{
+    font-family:roboto;
+}
+
+.box{
+    color: rgb(217, 208, 223);
+    margin:0 auto;
+    padding: 20px;
+    height:70px;
+    text-align: left;
+     
+}
+body{
+    color:rgb(243, 247, 248);
+}
+
+.fill{
+    display: inline;
+    text-align: left;
+    border:20px
+    padding-top:-1rem;
+   
+}
+
+.home{
+    background: rgb(242, 199, 186) ;
+    margin: -0.5rem;
+    padding-bottom:20px;
+}
+.put{
+    background: rgb(106, 88, 82) ;
+    margin: -0.5rem;
+    padding-bottom:20px; 
+}
+
+hr{
+    background:  rgb(253, 208, 194) ;
+    border: 20px solid rgb(242, 199, 186) ;
+    padding: -1rem 3rem -1rem 3rem;
+}
+
+
+.contact{
+    background:rgb(145, 117, 133);
+    margin: -0.5rem;
+    padding-bottom:20px
+}
+
+.pinky{
+    background:rgb(242, 212, 228);
+   
+}
+
+.footer{
+    background: rgb(25, 51, 69);
+    margin: -0.5rem;
+    padding-bottom:20px;
+}
+.footer + .footer{
+    margin-top: -20px;
+}
+
+#purply{
+    color:purple;
+}

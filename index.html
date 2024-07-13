@@ -1,0 +1,194 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>>, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <header>
+        <h1 class="box">My Portfolio Website</h1><hr>
+        <nav class="fill">
+            <ul class="fill">
+                <li class="fill"><a href="#Home" ><img class="fill" src="./home1.png" width="50px" height="50px"/></a></li>
+                <li class="fill"><a href="#About" ><img class="fill" src="./about.png" width="50px" height="50px"/></a></li>
+                <li class="fill"><a href="#Resume"><img class="fill" src="./resume.jpeg" width="50px" height="50px"/></a></li>
+                <li class="fill"><a href="#Work" ><img class="fill" src="./work.jpg" width="50px" height="50px"/></a></li>
+                <li class="fill"><a href="#Contact"><img class="fill" src="./Contact.png" width="50px" height="50px"/></a></li>
+            </ul>
+        </nav>
+
+            <section id="Home">
+                <h2 class="home">Home</h2>
+                <p class="home">Welcome to my portfolio website.</p>
+            </section>
+        
+            <section id="About">
+                <h2 class="home">About</h2>     
+        <form class="home"><br>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="pinky" ><br/><br/>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" required class="pinky" >Female
+            <input class="pinky"  type="radio" id="gender" name="gender" required>Male<br/><br/>
+            <label for="age">Age:</label>
+            <input class="pinky"  type="number" id="age" name="age" required><br/><br/>
+            <label for="country">Nationality:</label>
+            <select class="pinky"  >
+               <option id="Af" value="Armenia">Armenia</option>
+               <option id="Be" value="Belgium">Belgium</option>
+               <option id="Ca" value=" Canada">Canada</option>
+               <option id="De" value="Denmark">Denmark</option>
+               <option id="Et" value="Ethiopia">Ethiopia</option>
+               <option id="Fi" value="Finland">Finland</option>
+               <option id="Gh" value="Ghana">Ghana</option>
+               <option id="Ho" value="Holysee">Holysee</option>
+               <option id="Ic" value="Iceland">Iceland</option>
+               <option id="Ja" value="Japan">Japan</option>
+               <option id="Ku" value="Kuwait">Kuwait</option>
+               <option id="Lu" value="Luxemburg">Luxemburg</option>
+               <option id="Mo" value="Morocco">Morocco</option>
+               <option id="Ni" value="Nigeria">Nigeria</option>
+               <option id="Or" value="Orange state">Orange state</option>
+               <option id="Po" value="Portugal">Portugal</option>
+               <option id="Qu" value="Quatar">Quatar</option>
+               <option id="Rw" value="Rwanda">Rwanda</option>
+               <option id="Sl" value="Slovakia">Slovakia</option>
+               <option id="Th" value="Thailand">Thailand</option>
+               <option id="Uz" value="Uzbekistan"> Uzbekistan</option>
+               <option id="Vi" value="Vietnam">Vietnam</option>
+               <option id="Ye" value="Yemen">Yemen</option>
+               <option id="Za" value="Zambia">Zambia</option>
+            </select><br/><br/>
+            <label for="shortbio">Short-Biography</label><br/> 
+            <textarea id="shortbio" name="shortbio" rows="10" cols="50" class="pinky"></textarea><br/><br/>
+            <input type="submit" value="SUBMIT" class="pinky">
+           </form>
+            </section>
+
+            <section id="Work">
+                <h2 class="home">Work</h2>
+                <form class="home"><br>
+                    <label for="project-name"> Project Name:</label> 
+                    <input type="text" id="project-name" name="project-name" class="pinky"/><br/><br/>
+                    <label for="project-description"> Project Description:</label><br/> 
+                    <textarea id="project-name" name="project-name" rows="4" cols="50" class="pinky"></textarea><br/><br/>
+                    <label for="project-category"> Project Category:</label> 
+                    <input type="text" id="project-category" name="project-category" class="pinky"/>
+                 </form>
+            </section>
+
+            <section id="Resume">
+                <h2 class="home">Resume</h2>
+                <form class="home">
+                    <section>
+                        <h3 class="home">Personal Information</h3>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required class="pinky"/><br/><br/>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required class="pinky"/><br/><br/>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required class="pinky"/><br/><br/>
+                        <label for="address">Address:</label><br/>
+                        <textarea id="address" name="address" rows="4" cols="50" required class="pinky"></textarea>
+                    </section>
+        
+                    <section>
+                        <h3>Education</h3>
+                        <label for="hschool">High-School:</label>
+                        <input type="text" id="hschool" name="school" required class="pinky"><br/><br/>
+                        <label for="university">University:</label>
+                        <input type="text" id="university" name="school" required class="pinky"><br/><br/>
+                        <label for="degree">Degree:</label>
+                        <input type="text" id="degree" name="degree" required class="pinky"><br/><br/>
+                        <label for="graduation">Year of Graduation:</label>
+                        <input type="date" id="graduation" name="graduation" required class="pinky">
+                    </section>
+                        
+                    <section>
+                        <h3>Work Experience</h3>
+                        <label for="company">Company:</label>
+                        <input type="text" id="company" name="company" required class="pinky"><br/><br/>
+                        <label for="role">Role:</label>
+                        <input type="text" id="role" name="role" required class="pinky"><br/><br/>
+                        <label for="work-years">Years of Experience:</label>
+                        <input type="number" id="work-years" name="work-years" min="0" required class="pinky"><br/><br/>
+                        <label for="work-description">Description:</label><br/>
+                        <textarea id="work-description" name="work-description" rows="4" cols="50" required class="pinky"></textarea>
+                    </section>
+                       
+                    <section>
+                        <h3>Skills</h3>
+                        <label for="skills">Skills:</label><br/>
+                        <textarea id="skills" name="skills" rows="4" cols="50" required class="pinky"></textarea><br/><br/>
+                        <label for="reference-name">Reference:</label>
+                        <input type="text" id="reference-name" name="reference-name" required class="pinky"><br/><br/>
+                        <label for="reference-contact">Reference Contact:</label>
+                        <input type="number" id="reference-contact" name="reference-contact" required class="pinky"><br/><br/>
+                    </section>
+        
+                    <section>
+                        <h3>Certifications/Awards</h3>
+                        <label for="certificate/award">Certifications/Awards:</label><br/>
+                        <textarea id="certificate/award" name="certificate/award" rols="4" cols="50" class="pinky"></textarea>
+                    </section><br/>
+        
+                    <input type="submit" value="SUBMIT" class="pinky">
+                </form>
+            </section>
+
+            <section id="Contact">
+                <h2 class="contact">Contact</h2>
+                <form class="contact"><br>
+                    <label for="phone">Tel:</label>
+                    <input type="tel" id="phone" name="phone" class="pinky"/><br/><br/>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="pinky"/><br/><br/>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" class="pinky"/><br/><br/>
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" class="pinky"/><br/><br/>
+                    <label for="country">Country:</label>
+                    <select class="pinky" >
+                      <option id="Af" value="Armenia">Armenia</option>
+                      <option id="Be" value="Belgium">Belgium</option>
+                      <option id="Ca" value=" Canada">Canada</option>
+                      <option id="De" value="Denmark">Denmark</option>
+                      <option id="Et" value="Ethiopia">Ethiopia</option>
+                      <option id="Fi" value="Finland">Finland</option>
+                      <option id="Gh" value="Ghana">Ghana</option>
+                      <option id="Ho" value="Holysee">Holysee</option>
+                      <option id="Ic" value="Iceland">Iceland</option>
+                      <option id="Ja" value="Japan">Japan</option>
+                      <option id="Ku" value="Kuwait">Kuwait</option>
+                      <option id="Lu" value="Luxemburg">Luxemburg</option>
+                      <option id="Mo" value="Morocco">Morocco</option>
+                      <option id="Ni" value="Nigeria">Nigeria</option>
+                      <option id="Or" value="Orange state">Orange state</option>
+                      <option id="Po" value="Portugal">Portugal</option>
+                      <option id="Qu" value="Quatar">Quatar</option>
+                      <option id="Rw" value="Rwanda">Rwanda</option>
+                      <option id="Sl" value="Slovakia">Slovakia</option>
+                      <option id="Th" value="Thailand">Thailand</option>
+                      <option id="Uz" value="Uzbekistan"> Uzbekistan</option>
+                      <option id="Vi" value="Vietnam">Vietnam</option>
+                      <option id="Ye" value="Yemen">Yemen</option>
+                      <option id="Za" value="Zambia">Zambia</option>
+                    </select><br/><br/>
+                    <input type="submit" value="SUBMIT" class="pinky">
+                  </form>
+            </section>
+       
+    </header>
+    <p class="footer"><a href="#Home">Home</a>
+        <a href="#About" class="footer">About</a>
+        <a href="#Resume" class="footer">Resume</a>
+        <a href="#Work" class="footer">Work</a>
+        <a href="#Contact" class="footer">Contact</a>
+    </p>
+    <footer class="footer">
+        <p id="purply">&copy; 2024 Adefule Moyinoluwa. All rights reserved.</p>
+    </footer>
+</body>
+</html>
